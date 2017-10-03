@@ -5,6 +5,10 @@ files:
     destination: /var/www/html/
   - source: /phpinfo.php
     destination: /var/www/html/
+  - source: /cat.txt
+    destination: /var/www/html/
+  - source: /dog.txt
+    destination: /var/www/html/
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
